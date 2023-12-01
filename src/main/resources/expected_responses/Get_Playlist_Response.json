@@ -1,0 +1,39 @@
+{
+    "collaborative": false,
+    "description": "Urdu Ghazals and Hits of 2023",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/33Sr07vuxI41LYrAs2z0Vs"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/33Sr07vuxI41LYrAs2z0Vs",
+    "id": "33Sr07vuxI41LYrAs2z0Vs",
+    "images": [],
+    "name": "Urdu Ghazals and Hits",
+    "owner": {
+        "display_name": "Shiva",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31gzoo4n36wlnqcsqi5pm3dywcbi"
+        },
+        "href": "https://api.spotify.com/v1/users/31gzoo4n36wlnqcsqi5pm3dywcbi",
+        "id": "31gzoo4n36wlnqcsqi5pm3dywcbi",
+        "type": "user",
+        "uri": "spotify:user:31gzoo4n36wlnqcsqi5pm3dywcbi"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSwyN2FhM2M4ZWE5Yjc4MDJhMjM4ODAyODFlZjUyNDYwNmY5YjQ5NTRh",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/33Sr07vuxI41LYrAs2z0Vs/tracks",
+        "items": [],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:33Sr07vuxI41LYrAs2z0Vs"
+}

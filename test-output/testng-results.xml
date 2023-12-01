@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T19:04:29 IST" name="Regression Suite" finished-at="2023-12-01T19:04:34 IST" duration-ms="4425">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T19:04:29 IST" name="Regression Tests" finished-at="2023-12-01T19:04:34 IST" duration-ms="4425">
+      <class name="spotify.happypath.tests.AddItemsToPL">
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.happypath.tests.AddItemsToPL@1984b1f]" started-at="2023-12-01T19:04:29 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:29 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validateAddItemsToPL()[pri:0, instance:spotify.happypath.tests.AddItemsToPL@1984b1f]" started-at="2023-12-01T19:04:29 IST" name="validateAddItemsToPL" description="Validate the Happy Path flow of Add Items to Playlist API" finished-at="2023-12-01T19:04:33 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemsToPL -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.happypath.tests.AddItemsToPL@1984b1f]" started-at="2023-12-01T19:04:33 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+      </class> <!-- spotify.happypath.tests.AddItemsToPL -->
+      <class name="spotify.happypath.tests.PlaylistHPTests">
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:29 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:29 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validateCreatePlaylist(org.testng.ITestContext)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:29 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" finished-at="2023-12-01T19:04:33 IST" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@759dc4af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatePlaylist -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validateUpdatePlaylist(org.testng.ITestContext)[pri:2, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="validateUpdatePlaylist" description="Validate the Happy Path flow of Update Playlist API" finished-at="2023-12-01T19:04:33 IST" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@759dc4af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdatePlaylist -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validatGetPlaylist(org.testng.ITestContext)[pri:3, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:33 IST" name="validatGetPlaylist" description="Validate the Happy Path flow of Get Playlist API" finished-at="2023-12-01T19:04:34 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@759dc4af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatGetPlaylist -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.happypath.tests.PlaylistHPTests@6c2ed0cd]" started-at="2023-12-01T19:04:34 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+      </class> <!-- spotify.happypath.tests.PlaylistHPTests -->
+      <class name="spotify.errorpath.tests.PlaylistEPTests">
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.errorpath.tests.PlaylistEPTests@1b75c2e3]" started-at="2023-12-01T19:04:29 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:29 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validateCreatePlaylistWithoutName(org.testng.ITestContext)[pri:1, instance:spotify.errorpath.tests.PlaylistEPTests@1b75c2e3]" started-at="2023-12-01T19:04:29 IST" name="validateCreatePlaylistWithoutName" description="Validate the Error Path flow of Create Playlist API" finished-at="2023-12-01T19:04:33 IST" duration-ms="3350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@759dc4af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatePlaylistWithoutName -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.errorpath.tests.PlaylistEPTests@1b75c2e3]" started-at="2023-12-01T19:04:33 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+      </class> <!-- spotify.errorpath.tests.PlaylistEPTests -->
+      <class name="spotify.happypath.tests.AlbumTests">
+        <test-method is-config="true" signature="setUpFunctions()[pri:0, instance:spotify.happypath.tests.AlbumTests@1f53a5dc]" started-at="2023-12-01T19:04:29 IST" name="setUpFunctions" finished-at="2023-12-01T19:04:29 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFunctions -->
+        <test-method signature="validateGetAlbum()[pri:0, instance:spotify.happypath.tests.AlbumTests@1f53a5dc]" started-at="2023-12-01T19:04:29 IST" name="validateGetAlbum" description="Validate the Happy Path flow of Get Album API" finished-at="2023-12-01T19:04:33 IST" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAlbum -->
+        <test-method is-config="true" signature="tearDownFunctions()[pri:0, instance:spotify.happypath.tests.AlbumTests@1f53a5dc]" started-at="2023-12-01T19:04:33 IST" name="tearDownFunctions" finished-at="2023-12-01T19:04:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFunctions -->
+      </class> <!-- spotify.happypath.tests.AlbumTests -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
