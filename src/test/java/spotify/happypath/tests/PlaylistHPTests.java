@@ -3,31 +3,20 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.jayway.jsonpath.JsonPath;
-
 import spotify.createplaylist_response_hp.pojo.CreatePlaylist;
 import spotify.getplaylist_response_hp.pojo.GetPlaylist;
-import spotify.playlist_requests.pojo.CreatePlaylist_Request;
-import spotify.playlist_requests.pojo.UpdatePlaylist_Request;
 import testcomponents.BaseTest;
 import testcomponents.JSONComparator;
 import io.qameta.allure.Description;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import reusability_enhancer.PlaylistAPI;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-import static org.hamcrest.MatcherAssert.*;
 
 public class PlaylistHPTests extends BaseTest{
 	

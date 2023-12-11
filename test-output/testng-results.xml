@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-11T23:10:42 IST" name="Default suite" finished-at="2023-12-11T23:10:47 IST" duration-ms="5541">
+  <suite started-at="2023-12-11T23:34:43 IST" name="Regression Suite" finished-at="2023-12-11T23:34:48 IST" duration-ms="5034">
     <groups>
     </groups>
-    <test started-at="2023-12-11T23:10:42 IST" name="Default test" finished-at="2023-12-11T23:10:47 IST" duration-ms="5541">
+    <test started-at="2023-12-11T23:34:43 IST" name="Regression Tests" finished-at="2023-12-11T23:34:48 IST" duration-ms="5034">
+      <class name="spotify.happypath.tests.AddItemsToPL">
+        <test-method signature="validateAddItemsToPL()[pri:0, instance:spotify.happypath.tests.AddItemsToPL@5ef5c734]" started-at="2023-12-11T23:34:43 IST" name="validateAddItemsToPL" description="Validate the Happy Path flow of Add Items to Playlist API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemsToPL -->
+      </class> <!-- spotify.happypath.tests.AddItemsToPL -->
       <class name="spotify.happypath.tests.PlaylistHPTests">
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@95e33cc]" started-at="2023-12-11T23:10:42 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:10:45 IST" duration-ms="3345" status="PASS">
+        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:43 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:46 IST" duration-ms="3042" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7db82169]]>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
               </value>
             </param>
             <param index="1">
@@ -23,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@95e33cc]" started-at="2023-12-11T23:10:45 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:10:46 IST" duration-ms="404" status="PASS">
+        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:46 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:47 IST" duration-ms="445" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7db82169]]>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
               </value>
             </param>
             <param index="1">
@@ -39,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@95e33cc]" started-at="2023-12-11T23:10:46 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:10:46 IST" duration-ms="410" status="PASS">
+        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:47 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:47 IST" duration-ms="394" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7db82169]]>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
               </value>
             </param>
             <param index="1">
@@ -55,22 +61,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateUpdatePlaylist(org.testng.ITestContext)[pri:2, instance:spotify.happypath.tests.PlaylistHPTests@95e33cc]" started-at="2023-12-11T23:10:46 IST" name="validateUpdatePlaylist" description="Validate the Happy Path flow of Update Playlist API" finished-at="2023-12-11T23:10:47 IST" duration-ms="692" status="PASS">
+        <test-method signature="validateUpdatePlaylist(org.testng.ITestContext)[pri:2, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:47 IST" name="validateUpdatePlaylist" description="Validate the Happy Path flow of Update Playlist API" finished-at="2023-12-11T23:34:48 IST" duration-ms="516" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7db82169]]>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUpdatePlaylist -->
-        <test-method signature="validatGetPlaylist(org.testng.ITestContext)[pri:3, instance:spotify.happypath.tests.PlaylistHPTests@95e33cc]" started-at="2023-12-11T23:10:47 IST" name="validatGetPlaylist" description="Validate the Happy Path flow of Get Playlist API" finished-at="2023-12-11T23:10:47 IST" duration-ms="348" status="PASS">
+        <test-method signature="validatGetPlaylist(org.testng.ITestContext)[pri:3, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:48 IST" name="validatGetPlaylist" description="Validate the Happy Path flow of Get Playlist API" finished-at="2023-12-11T23:34:48 IST" duration-ms="318" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7db82169]]>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
               </value>
             </param>
           </params>
@@ -78,6 +84,25 @@
           </reporter-output>
         </test-method> <!-- validatGetPlaylist -->
       </class> <!-- spotify.happypath.tests.PlaylistHPTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="spotify.errorpath.tests.PlaylistEPTests">
+        <test-method signature="validateCreatePlaylistWithoutName(org.testng.ITestContext)[pri:1, instance:spotify.errorpath.tests.PlaylistEPTests@16eccb2e]" started-at="2023-12-11T23:34:43 IST" name="validateCreatePlaylistWithoutName" description="Validate the Error Path flow of Create Playlist API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1332a866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatePlaylistWithoutName -->
+      </class> <!-- spotify.errorpath.tests.PlaylistEPTests -->
+      <class name="spotify.happypath.tests.AlbumTests">
+        <test-method signature="validateGetAlbum()[pri:0, instance:spotify.happypath.tests.AlbumTests@5ddcc487]" started-at="2023-12-11T23:34:43 IST" name="validateGetAlbum" description="Validate the Happy Path flow of Get Album API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAlbum -->
+      </class> <!-- spotify.happypath.tests.AlbumTests -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
