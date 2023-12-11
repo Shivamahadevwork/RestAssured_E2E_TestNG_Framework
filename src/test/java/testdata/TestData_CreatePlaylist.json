@@ -1,0 +1,22 @@
+[
+	
+	{
+    "name": "English Hits of 2000",
+    "description": "English Hits of year 2000 and most played in the UK",
+    "public": false
+	},
+	
+	{
+    "name": "American Hits of 2000",
+    "description": "American Hits of year 2000 and most played in the US",
+    "public": true
+	},
+	
+	{
+    "name": "Spanish Hits of 2000",
+    "description": "Spanish Hits of year 2000 and most played in Spain",
+    "public": false
+	}	
+	
+	
+]

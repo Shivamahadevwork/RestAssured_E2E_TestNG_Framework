@@ -1,10 +1,12 @@
 package spotify.happypath.tests;
 import org.testng.Assert;
 import org.testng.ITestContext;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.jayway.jsonpath.JsonPath;
 
+import api_level_reusability_enhancer.PlaylistAPI;
 import spotify.createplaylist_response_hp.pojo.CreatePlaylist;
 import spotify.getplaylist_response_hp.pojo.GetPlaylist;
 import spotify.playlist_requests.pojo.CreatePlaylist_Request;
@@ -21,6 +23,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -29,20 +32,19 @@ import static org.hamcrest.MatcherAssert.*;
 public class PlaylistHPTests extends BaseTest{
 	
 		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
-		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API")
-		public void validateCreatePlaylist(ITestContext context) throws IOException {
-		Response rawActualResponse = given().
-								  spec(getRequestSpec()).
-								  body(testdata.testdataHPCreatePlaylist()).		
-								  when().
-								  post("/users/31gzoo4n36wlnqcsqi5pm3dywcbi/playlists").		
-								  then().
-								  spec(getResponseSpec()).
-								  extract().
-								  response();	
+		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API", dataProvider = "supplyCreatePlaylistData")
+		public void validateCreatePlaylist(ITestContext context, HashMap<String, String> testdataAsMap) throws IOException {
+		Response rawActualResponse = PlaylistAPI.post(testdataAsMap);
 		
+		// Assert Response Time
 		double responseTime = rawActualResponse.getTimeIn(TimeUnit.MILLISECONDS);
 		System.out.println(responseTime);
+		softAssert.assertTrue(responseTime<3000);
+		
+		// Assert Response Headers			
+		String robotTag = rawActualResponse.getHeader("x-robots-tag");
+		System.out.println(robotTag);
+		softAssert.assertEquals(robotTag,"noindex, nofollow");
 		
 		// Assert status code and length>0 of the response from the rawActualResponse
 		
@@ -53,11 +55,10 @@ public class PlaylistHPTests extends BaseTest{
 
 		// Assert if the response field values match with the request values from the deserialized response		
 		
-		softAssert.assertEquals(deserializedActualResponse.getName(), testdata.testdataHPCreatePlaylist().getName());
-		softAssert.assertEquals(deserializedActualResponse.getDescription(), testdata.testdataHPCreatePlaylist().getDescription());
-		softAssert.assertEquals(deserializedActualResponse.getPublic(), testdata.testdataHPCreatePlaylist().get_public());
-		
-		// Convert the rawActualResponse to String
+		softAssert.assertEquals(deserializedActualResponse.getName(), testdata.testdataHPCreatePlaylist(testdataAsMap).getName());
+		softAssert.assertEquals(deserializedActualResponse.getDescription(), testdata.testdataHPCreatePlaylist(testdataAsMap).getDescription());
+		softAssert.assertEquals(deserializedActualResponse.get_public(), testdata.testdataHPCreatePlaylist(testdataAsMap).get_public());
+				
 		String rawActualResponseStg = rawActualResponse.asString();
 						
 		// Assert the keys in the response from the response converted as String		
@@ -76,18 +77,20 @@ public class PlaylistHPTests extends BaseTest{
 		softAssert.assertAll();	
 		}
 		
+		@DataProvider
+		public Object[][] supplyCreatePlaylistData() throws IOException {
+		List<HashMap<String, String>> testdataAsMap = supplyJSONtestdataAsMap(new File(System.getProperty("user.dir")+"//src//test//java//testdata//TestData_CreatePlaylist.json"));
+		return new Object[][] {
+							  {testdataAsMap.get(0)}, {testdataAsMap.get(1)}, {testdataAsMap.get(2)}
+							  };	
+		}
+		
 		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
 		@Test(priority=2, description = "Validate the Happy Path flow of Update Playlist API")
 		public void validateUpdatePlaylist(ITestContext context) throws FileNotFoundException {
 		String playlistId =  (String) context.getAttribute("playlistId");
 		
-		Response rawActualResponse	= given().
-								  spec(getRequestSpec()).
-								  body(testdata.testdataHPUpdatePlaylist()).								  
-								  when().put("/playlists/"+playlistId).								  
-								  then().spec(getResponseSpec()).
-								  extract().
-								  response();	
+		Response rawActualResponse	= PlaylistAPI.put(playlistId);	
 		
 		double responseTime = rawActualResponse.getTimeIn(TimeUnit.MILLISECONDS);
 		System.out.println(responseTime);
@@ -101,14 +104,7 @@ public class PlaylistHPTests extends BaseTest{
 		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API")
 		public void validatGetPlaylist(ITestContext context) throws IOException {
 		String playlistId = (String) context.getAttribute("playlistId");
-		Response rawActualResponse = given().
-								  spec(getRequestSpec()).
-								  when().
-								  get("/playlists/"+playlistId).
-								  then().
-								  spec(getResponseSpec()).
-								  extract().
-								  response();	
+		Response rawActualResponse = PlaylistAPI.get(playlistId);
 		
 		double responseTime = rawActualResponse.getTimeIn(TimeUnit.MILLISECONDS);
 		System.out.println(responseTime);	

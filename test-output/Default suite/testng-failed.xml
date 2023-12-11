@@ -5,9 +5,7 @@
     <classes>
       <class name="spotify.happypath.tests.PlaylistHPTests">
         <methods>
-          <include name="setUpFunctions"/>
-          <include name="tearDownFunctions"/>
-          <include name="validatGetPlaylist" invocation-numbers="0"/>
+          <include name="validateCreatePlaylist" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- spotify.happypath.tests.PlaylistHPTests -->
     </classes>
