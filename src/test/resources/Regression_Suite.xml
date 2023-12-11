@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="classes">
+  <test thread-count="5" name="Regression Tests">
+    <classes>
+      <class name="spotify.happypath.tests.PlaylistHPTests"/>
+      <class name="spotify.happypath.tests.AlbumTests"/>
+      <class name="spotify.errorpath.tests.PlaylistEPTests"/>
+      <class name="spotify.happypath.tests.AddItemsToPL"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

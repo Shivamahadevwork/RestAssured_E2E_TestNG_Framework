@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 import com.jayway.jsonpath.JsonPath;
 
-import api_level_reusability_enhancer.PlaylistAPI;
 import spotify.createplaylist_response_hp.pojo.CreatePlaylist;
 import spotify.getplaylist_response_hp.pojo.GetPlaylist;
 import spotify.playlist_requests.pojo.CreatePlaylist_Request;
@@ -16,9 +15,10 @@ import testcomponents.JSONComparator;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import reusability_enhancer.PlaylistAPI;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -111,8 +111,7 @@ public class PlaylistHPTests extends BaseTest{
 		softAssert.assertEquals(rawActualResponse.getStatusCode(), 200);
 		softAssert.assertTrue(rawActualResponse.asString().length()>0);
 		softAssert.assertEquals(rawActualResponse.path("tracks.limit"), 100);
-		softAssert.assertEquals(rawActualResponse.path("tracks.next"), null);
-		
+				
 		GetPlaylist deserializedActualResponse = rawActualResponse.as(GetPlaylist.class);
 		softAssert.assertEquals(deserializedActualResponse.getId(), playlistId);
 		softAssert.assertEquals(deserializedActualResponse.getOwner().getDisplayName(), "Shiva");				

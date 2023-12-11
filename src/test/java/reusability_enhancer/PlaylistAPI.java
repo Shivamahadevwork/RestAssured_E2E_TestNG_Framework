@@ -1,4 +1,4 @@
-package api_level_reusability_enhancer;
+package reusability_enhancer;
 
 import static io.restassured.RestAssured.given;
 
