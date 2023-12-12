@@ -5,12 +5,30 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31gzoo4n36wlnqcsqi5pm3dywcbi/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "description": "Urdu Ghazals of 2023",
+    "public": false
+}
 Request method:	POST
 Request URI:	https://api.spotify.com/v1/playlists/4oBuQCcu1GTranlpNpklwh/tracks
 Proxy:			<none>
@@ -18,7 +36,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -37,7 +55,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -46,24 +64,6 @@ Body:
 {
     "name": "English Hits of 2000",
     "description": "English Hits of year 2000 and most played in the UK",
-    "public": false
-}
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/31gzoo4n36wlnqcsqi5pm3dywcbi/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "name": "",
-    "description": "Urdu Ghazals of 2023",
     "public": false
 }
 HTTP/1.1 400 Bad Request
@@ -78,7 +78,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:45 GMT
+date: Tue, 12 Dec 2023 06:06:29 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -102,7 +102,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:45 GMT
+date: Tue, 12 Dec 2023 06:06:29 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -311,11 +311,11 @@ Transfer-Encoding: chunked
             ],
             "copyrights": [
                 {
-                    "text": "© 2011 Disney",
+                    "text": "� 2011 Disney",
                     "type": "C"
                 },
                 {
-                    "text": "℗ 2011 Walt Disney Records",
+                    "text": "? 2011 Walt Disney Records",
                     "type": "P"
                 }
             ],
@@ -3745,19 +3745,19 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:45 GMT
+date: Tue, 12 Dec 2023 06:06:29 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Transfer-Encoding: chunked
 
 {
-    "snapshot_id": "NDUsMGVhMWU1MThjOTEwYzM0MWNmMzYyOWJiZmE1YzYzNTIxNGU2MDJjZg=="
+    "snapshot_id": "NDYsYTRhMDE2N2EyNzRhNDk2MWY3M2VjMGY4YjJlYmQ1MTQ1ZTQzZWRhYQ=="
 }
 HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/4O7Uocq15HqcfnroLWnYcx
+location: https://api.spotify.com/v1/playlists/4ZhDV8dufGgJ6ebM0oxGJl
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -3767,7 +3767,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:46 GMT
+date: Tue, 12 Dec 2023 06:06:29 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -3777,14 +3777,14 @@ Transfer-Encoding: chunked
     "collaborative": false,
     "description": "English Hits of year 2000 and most played in the UK",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/4O7Uocq15HqcfnroLWnYcx"
+        "spotify": "https://open.spotify.com/playlist/4ZhDV8dufGgJ6ebM0oxGJl"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/4O7Uocq15HqcfnroLWnYcx",
-    "id": "4O7Uocq15HqcfnroLWnYcx",
+    "href": "https://api.spotify.com/v1/playlists/4ZhDV8dufGgJ6ebM0oxGJl",
+    "id": "4ZhDV8dufGgJ6ebM0oxGJl",
     "images": [
         
     ],
@@ -3801,9 +3801,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": false,
-    "snapshot_id": "MSw0MGY1ZjE5ZmU0MmRiOWJiNDNmNjhiZTM0NDQyOGFhYTIxNzE0NWE0",
+    "snapshot_id": "MSwwMGJlY2NjMmZlOWFjYmM3NjM2NWQ0NmYwYjVmN2RkYjE1YWU1Mjlm",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/4O7Uocq15HqcfnroLWnYcx/tracks",
+        "href": "https://api.spotify.com/v1/playlists/4ZhDV8dufGgJ6ebM0oxGJl/tracks",
         "items": [
             
         ],
@@ -3814,7 +3814,7 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:4O7Uocq15HqcfnroLWnYcx"
+    "uri": "spotify:playlist:4ZhDV8dufGgJ6ebM0oxGJl"
 }
 Request method:	POST
 Request URI:	https://api.spotify.com/v1/users/31gzoo4n36wlnqcsqi5pm3dywcbi/playlists
@@ -3823,7 +3823,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -3837,7 +3837,7 @@ Body:
 HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/3T3SwwHdUv7a3hRpLZ7Dfa
+location: https://api.spotify.com/v1/playlists/7AoGkAJRx0zzWZ5YkAGNSe
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -3847,7 +3847,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:46 GMT
+date: Tue, 12 Dec 2023 06:06:29 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -3857,14 +3857,14 @@ Transfer-Encoding: chunked
     "collaborative": false,
     "description": "American Hits of year 2000 and most played in the US",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/3T3SwwHdUv7a3hRpLZ7Dfa"
+        "spotify": "https://open.spotify.com/playlist/7AoGkAJRx0zzWZ5YkAGNSe"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/3T3SwwHdUv7a3hRpLZ7Dfa",
-    "id": "3T3SwwHdUv7a3hRpLZ7Dfa",
+    "href": "https://api.spotify.com/v1/playlists/7AoGkAJRx0zzWZ5YkAGNSe",
+    "id": "7AoGkAJRx0zzWZ5YkAGNSe",
     "images": [
         
     ],
@@ -3881,9 +3881,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": false,
-    "snapshot_id": "MSwwNDRlOTU5ZWNlNDFhZmUwN2VjNjcwNjAwYzQ3MjRhZDZiZTMxOTMw",
+    "snapshot_id": "MSw0Nzk5MGJiMDcxZTY4OGVhOGExYmVhZDExMTE4M2Y1MmM2NjY1ZGQ1",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/3T3SwwHdUv7a3hRpLZ7Dfa/tracks",
+        "href": "https://api.spotify.com/v1/playlists/7AoGkAJRx0zzWZ5YkAGNSe/tracks",
         "items": [
             
         ],
@@ -3894,7 +3894,7 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:3T3SwwHdUv7a3hRpLZ7Dfa"
+    "uri": "spotify:playlist:7AoGkAJRx0zzWZ5YkAGNSe"
 }
 Request method:	POST
 Request URI:	https://api.spotify.com/v1/users/31gzoo4n36wlnqcsqi5pm3dywcbi/playlists
@@ -3903,7 +3903,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -3917,7 +3917,7 @@ Body:
 HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC
+location: https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -3927,7 +3927,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:46 GMT
+date: Tue, 12 Dec 2023 06:06:30 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -3937,14 +3937,14 @@ Transfer-Encoding: chunked
     "collaborative": false,
     "description": "Spanish Hits of year 2000 and most played in Spain",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/0KqrX3EullkcIDNtzOBcoC"
+        "spotify": "https://open.spotify.com/playlist/1skdXqk7OHGHYDNkNDNuyx"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC",
-    "id": "0KqrX3EullkcIDNtzOBcoC",
+    "href": "https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx",
+    "id": "1skdXqk7OHGHYDNkNDNuyx",
     "images": [
         
     ],
@@ -3961,9 +3961,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": false,
-    "snapshot_id": "MSwxOTBmYjJhNjg0MGU0MDA0MDZkYzA3MmI1YmNlYThiNzFkZTY5Yzlk",
+    "snapshot_id": "MSxmM2E5YjMwYmQ4OThjMGJkN2VlZWNkZTZjZGU5OWM2YWY1ZDM0NzI3",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC/tracks",
+        "href": "https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx/tracks",
         "items": [
             
         ],
@@ -3974,23 +3974,23 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:0KqrX3EullkcIDNtzOBcoC"
+    "uri": "spotify:playlist:1skdXqk7OHGHYDNkNDNuyx"
 }
 Request method:	PUT
-Request URI:	https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC
+Request URI:	https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "TDPYNPvLlf",
+    "name": "NaUIWupmmA",
     "description": "Urdu Ghazals and Hits of 2023",
     "public": true
 }
@@ -4005,18 +4005,18 @@ access-control-max-age: 604800
 Content-Length: 0
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:47 GMT
+date: Tue, 12 Dec 2023 06:06:30 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Request method:	GET
-Request URI:	https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC
+Request URI:	https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQDcXRQ-mpXycou1PRRA3W97Qyt5969wy-MVMSLZqeaRHinRW4m-EkPNlQsyS_EFSec1ioQVIDtR3d79b4aARnpXOSYl2RogyyCOJMkdnM1DJYTBGLhCX5XsbiEQ5n3T-xKKOf6-xkXTFcwalEJnJ4hi1PMK-65F9wszk4UEU93D1NA4kQ9GLxyYHWJ-3pwSxg9HLgm_eukNDpTSyZShKkeNEXDre7pwyvtJTd1xccDrA5Ddgh2ItP_kcJClOnqGesPK73OwYSdhG3PE
+Headers:		Authorization=Bearer BQAttipn8wkmKsWzbEEVGO0yUm5juuYY2UzB_faaJYkHcDZhp68330qxPhjUdx_FXUHEy2SRrg_y9Nk1tqrkN10k_aG3alzr8jM2ZALOr2X1LQbQGaT634kIr293ROsAi_Zl07xOg9FEFj0EOyW41NndUUtykQbqqjjKGfygOSw-p8vzq7a3w0mOXlBby0b6gl-1Ebha2jafQNBHqkFGDt7ds2RxTR17bMG2Nsr3IbTR1jU_SuqdwQfZjnuJgnvDmAziRmumx2wWoIhh
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -4025,7 +4025,7 @@ Body:			<none>
 HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=0
-etag: "MC-ImFiNGI4OWIyYjM0ZTBjODI0ODI2NDVhNjRmMzgyODE1Ig=="
+etag: "MC-ImFkNGU3MWQwMDM2YThiNTE4YjA3ZDYxZGEyMDBlYzgyIg=="
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -4035,7 +4035,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Mon, 11 Dec 2023 18:04:47 GMT
+date: Tue, 12 Dec 2023 06:06:30 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -4045,18 +4045,18 @@ Transfer-Encoding: chunked
     "collaborative": false,
     "description": "Urdu Ghazals and Hits of 2023",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/0KqrX3EullkcIDNtzOBcoC"
+        "spotify": "https://open.spotify.com/playlist/1skdXqk7OHGHYDNkNDNuyx"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC",
-    "id": "0KqrX3EullkcIDNtzOBcoC",
+    "href": "https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx",
+    "id": "1skdXqk7OHGHYDNkNDNuyx",
     "images": [
         
     ],
-    "name": "TDPYNPvLlf",
+    "name": "NaUIWupmmA",
     "owner": {
         "display_name": "Shiva",
         "external_urls": {
@@ -4069,9 +4069,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": true,
-    "snapshot_id": "NSw5ZDM5YjQ5MDQ5NjAwNDA1OTU0MjE2NDZlNDIzNTAwMWU1MzRkOTJm",
+    "snapshot_id": "NSxkM2QzMjk2NzU3OWVjZGRjMDE5NWIxY2Q4ZmQyOWZhZmQwNTQyZjc3",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/0KqrX3EullkcIDNtzOBcoC/tracks?offset=0&limit=100",
+        "href": "https://api.spotify.com/v1/playlists/1skdXqk7OHGHYDNkNDNuyx/tracks?offset=0&limit=100",
         "items": [
             
         ],
@@ -4082,5 +4082,5 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:0KqrX3EullkcIDNtzOBcoC"
+    "uri": "spotify:playlist:1skdXqk7OHGHYDNkNDNuyx"
 }
