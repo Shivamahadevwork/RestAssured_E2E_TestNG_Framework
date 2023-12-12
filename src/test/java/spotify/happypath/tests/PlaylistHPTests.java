@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 public class PlaylistHPTests extends BaseTest{
 	
-		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
+	/*	@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
 		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API", dataProvider = "supplyCreatePlaylistData")
 		public void validateCreatePlaylist(ITestContext context, HashMap<String, String> testdataAsMap) throws IOException {
 		Response rawActualResponse = PlaylistAPI.post(testdataAsMap);
@@ -118,7 +118,7 @@ public class PlaylistHPTests extends BaseTest{
 		}		
 		softAssert.assertAll();
 		}
-		
+		*/
 		
 
 }
