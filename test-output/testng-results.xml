@@ -1,108 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-11T23:34:43 IST" name="Regression Suite" finished-at="2023-12-11T23:34:48 IST" duration-ms="5034">
+  <suite started-at="2023-12-13T10:03:46 IST" name="Default suite" finished-at="2023-12-13T10:03:50 IST" duration-ms="4076">
     <groups>
     </groups>
-    <test started-at="2023-12-11T23:34:43 IST" name="Regression Tests" finished-at="2023-12-11T23:34:48 IST" duration-ms="5034">
-      <class name="spotify.happypath.tests.AddItemsToPL">
-        <test-method signature="validateAddItemsToPL()[pri:0, instance:spotify.happypath.tests.AddItemsToPL@5ef5c734]" started-at="2023-12-11T23:34:43 IST" name="validateAddItemsToPL" description="Validate the Happy Path flow of Add Items to Playlist API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAddItemsToPL -->
-      </class> <!-- spotify.happypath.tests.AddItemsToPL -->
+    <test started-at="2023-12-13T10:03:46 IST" name="Default test" finished-at="2023-12-13T10:03:50 IST" duration-ms="4076">
       <class name="spotify.happypath.tests.PlaylistHPTests">
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:43 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:46 IST" duration-ms="3042" status="PASS">
+        <test-method signature="validatGetPlaylist(org.testng.ITestContext)[pri:3, instance:spotify.happypath.tests.PlaylistHPTests@82ea68c]" started-at="2023-12-13T10:03:46 IST" name="validatGetPlaylist" description="Validate the Happy Path flow of Get Playlist API" finished-at="2023-12-13T10:03:50 IST" duration-ms="3963" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{name=English Hits of 2000, description=English Hits of year 2000 and most played in the UK, public=false}]]>
+                <![CDATA[org.testng.TestRunner@4eb386df]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:46 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:47 IST" duration-ms="445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{name=American Hits of 2000, description=American Hits of year 2000 and most played in the US, public=true}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateCreatePlaylist(org.testng.ITestContext,java.util.HashMap)[pri:1, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:47 IST" name="validateCreatePlaylist" description="Validate the Happy Path flow of Create Playlist API" data-provider="supplyCreatePlaylistData" finished-at="2023-12-11T23:34:47 IST" duration-ms="394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{name=Spanish Hits of 2000, description=Spanish Hits of year 2000 and most played in Spain, public=false}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreatePlaylist -->
-        <test-method signature="validateUpdatePlaylist(org.testng.ITestContext)[pri:2, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:47 IST" name="validateUpdatePlaylist" description="Validate the Happy Path flow of Update Playlist API" finished-at="2023-12-11T23:34:48 IST" duration-ms="516" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUpdatePlaylist -->
-        <test-method signature="validatGetPlaylist(org.testng.ITestContext)[pri:3, instance:spotify.happypath.tests.PlaylistHPTests@ae3540e]" started-at="2023-12-11T23:34:48 IST" name="validatGetPlaylist" description="Validate the Happy Path flow of Get Playlist API" finished-at="2023-12-11T23:34:48 IST" duration-ms="318" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "error" (class spotify.getplaylist_response_hp.pojo.GetPlaylist), not marked as ignorable (15 known properties: "primary_color", "tracks", "public", "href", "uri", "owner", "collaborative", "snapshot_id", "external_urls", "type", "id", "description", "name", "followers", "images"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 14] (through reference chain: spotify.getplaylist_response_hp.pojo.GetPlaylist["error"])]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "error" (class spotify.getplaylist_response_hp.pojo.GetPlaylist), not marked as ignorable (15 known properties: "primary_color", "tracks", "public", "href", "uri", "owner", "collaborative", "snapshot_id", "external_urls", "type", "id", "description", "name", "followers", "images"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 14] (through reference chain: spotify.getplaylist_response_hp.pojo.GetPlaylist["error"])
+at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+at spotify.happypath.tests.PlaylistHPTests.validatGetPlaylist(PlaylistHPTests.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "error" (class spotify.getplaylist_response_hp.pojo.GetPlaylist), not marked as ignorable (15 known properties: "primary_color", "tracks", "public", "href", "uri", "owner", "collaborative", "snapshot_id", "external_urls", "type", "id", "description", "name", "followers", "images"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 14] (through reference chain: spotify.getplaylist_response_hp.pojo.GetPlaylist["error"])
+at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153)
+at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1719)
+at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1697)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:316)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4899)
+at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3846)
+at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+... 49 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatGetPlaylist -->
       </class> <!-- spotify.happypath.tests.PlaylistHPTests -->
-      <class name="spotify.errorpath.tests.PlaylistEPTests">
-        <test-method signature="validateCreatePlaylistWithoutName(org.testng.ITestContext)[pri:1, instance:spotify.errorpath.tests.PlaylistEPTests@16eccb2e]" started-at="2023-12-11T23:34:43 IST" name="validateCreatePlaylistWithoutName" description="Validate the Error Path flow of Create Playlist API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1332a866]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreatePlaylistWithoutName -->
-      </class> <!-- spotify.errorpath.tests.PlaylistEPTests -->
-      <class name="spotify.happypath.tests.AlbumTests">
-        <test-method signature="validateGetAlbum()[pri:0, instance:spotify.happypath.tests.AlbumTests@5ddcc487]" started-at="2023-12-11T23:34:43 IST" name="validateGetAlbum" description="Validate the Happy Path flow of Get Album API" finished-at="2023-12-11T23:34:46 IST" duration-ms="3207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateGetAlbum -->
-      </class> <!-- spotify.happypath.tests.AlbumTests -->
-    </test> <!-- Regression Tests -->
-  </suite> <!-- Regression Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
