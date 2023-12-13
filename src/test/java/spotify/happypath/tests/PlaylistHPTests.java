@@ -102,8 +102,8 @@ public class PlaylistHPTests extends BaseTest{
 //		softAssert.assertEquals(rawActualResponse.path("tracks.limit"), 100);
 				
 		GetPlaylist deserializedActualResponse = rawActualResponse.as(GetPlaylist.class);
-//		softAssert.assertEquals(deserializedActualResponse.getId(), playlistId);
-//		softAssert.assertEquals(deserializedActualResponse.getOwner().getDisplayName(), "Shiva");				
+		softAssert.assertEquals(deserializedActualResponse.getId(), playlistId);
+		softAssert.assertEquals(deserializedActualResponse.getOwner().getDisplayName(), "Shiva");				
 		
 		String rawActualResponseStg = rawActualResponse.asString();
 		
