@@ -20,8 +20,8 @@ import java.util.concurrent.TimeUnit;
 
 public class PlaylistHPTests extends BaseTest{
 	
-	/*	@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
-		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API", dataProvider = "supplyCreatePlaylistData")
+		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
+		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API", dataProvider = "supplyCreatePlaylistData", enabled = false)
 		public void validateCreatePlaylist(ITestContext context, HashMap<String, String> testdataAsMap) throws IOException {
 		Response rawActualResponse = PlaylistAPI.post(testdataAsMap);
 		
@@ -75,7 +75,7 @@ public class PlaylistHPTests extends BaseTest{
 		}
 		
 		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
-		@Test(priority=2, description = "Validate the Happy Path flow of Update Playlist API")
+		@Test(priority=2, description = "Validate the Happy Path flow of Update Playlist API", enabled = false)
 		public void validateUpdatePlaylist(ITestContext context) throws FileNotFoundException {
 		String playlistId =  (String) context.getAttribute("playlistId");
 		
@@ -90,7 +90,7 @@ public class PlaylistHPTests extends BaseTest{
 		}
 		
 		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
-		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API")
+		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API", enabled = false)
 		public void validatGetPlaylist(ITestContext context) throws IOException {
 		String playlistId = (String) context.getAttribute("playlistId");
 		Response rawActualResponse = PlaylistAPI.get(playlistId);
@@ -118,7 +118,7 @@ public class PlaylistHPTests extends BaseTest{
 		}		
 		softAssert.assertAll();
 		}
-		*/
+		
 		
 
 }
