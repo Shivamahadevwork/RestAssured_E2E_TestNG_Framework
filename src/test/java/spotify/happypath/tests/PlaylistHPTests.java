@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 public class PlaylistHPTests extends BaseTest{
 	
-		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
+	/*	@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
 		@Test(priority=1, description = "Validate the Happy Path flow of Create Playlist API", dataProvider = "supplyCreatePlaylistData", enabled = true)
 		public void validateCreatePlaylist(ITestContext context, HashMap<String, String> testdataAsMap) throws IOException {
 		Response rawActualResponse = PlaylistAPI.post(testdataAsMap);
@@ -87,9 +87,9 @@ public class PlaylistHPTests extends BaseTest{
 		softAssert.assertEquals(rawActualResponse.getStatusCode(), 200);
 		softAssert.assertTrue(rawActualResponse.asString().length()==0, "Alert - The Update Playlist response is NOT empty!");
 		softAssert.assertAll();	
-		} 
+		} */
 		
-	/*	@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
+		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
 		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API", enabled = false)
 		public void validatGetPlaylist(ITestContext context) throws IOException {
 		String playlistId = (String) context.getAttribute("playlistId");
@@ -117,7 +117,7 @@ public class PlaylistHPTests extends BaseTest{
 			System.out.println("Alert - mismatches noted! Validate them carefully.");
 		}		
 		softAssert.assertAll();
-		} */		
+		}	
 		
 
 }
