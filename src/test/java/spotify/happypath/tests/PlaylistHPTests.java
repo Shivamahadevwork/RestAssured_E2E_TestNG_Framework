@@ -90,7 +90,7 @@ public class PlaylistHPTests extends BaseTest{
 		} */
 		
 		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
-		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API", enabled = false)
+		@Test(priority=3, description = "Validate the Happy Path flow of Get Playlist API", enabled = true)
 		public void validatGetPlaylist(ITestContext context) throws IOException {
 		String playlistId = (String) context.getAttribute("playlistId");
 		Response rawActualResponse = PlaylistAPI.get(playlistId);
@@ -98,7 +98,7 @@ public class PlaylistHPTests extends BaseTest{
 		double responseTime = rawActualResponse.getTimeIn(TimeUnit.MILLISECONDS);
 		System.out.println(responseTime);	
 		softAssert.assertEquals(rawActualResponse.getStatusCode(), 200);
-//		softAssert.assertTrue(rawActualResponse.asString().length()>0);
+		softAssert.assertTrue(rawActualResponse.asString().length()>0);
 //		softAssert.assertEquals(rawActualResponse.path("tracks.limit"), 100);
 				
 		GetPlaylist deserializedActualResponse = rawActualResponse.as(GetPlaylist.class);
