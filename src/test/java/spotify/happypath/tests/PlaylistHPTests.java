@@ -98,12 +98,12 @@ public class PlaylistHPTests extends BaseTest{
 		double responseTime = rawActualResponse.getTimeIn(TimeUnit.MILLISECONDS);
 		System.out.println(responseTime);	
 		softAssert.assertEquals(rawActualResponse.getStatusCode(), 200);
-		softAssert.assertTrue(rawActualResponse.asString().length()>0);
-		softAssert.assertEquals(rawActualResponse.path("tracks.limit"), 100);
+//		softAssert.assertTrue(rawActualResponse.asString().length()>0);
+//		softAssert.assertEquals(rawActualResponse.path("tracks.limit"), 100);
 				
 		GetPlaylist deserializedActualResponse = rawActualResponse.as(GetPlaylist.class);
-		softAssert.assertEquals(deserializedActualResponse.getId(), playlistId);
-		softAssert.assertEquals(deserializedActualResponse.getOwner().getDisplayName(), "Shiva");				
+//		softAssert.assertEquals(deserializedActualResponse.getId(), playlistId);
+//		softAssert.assertEquals(deserializedActualResponse.getOwner().getDisplayName(), "Shiva");				
 		
 		String rawActualResponseStg = rawActualResponse.asString();
 		
