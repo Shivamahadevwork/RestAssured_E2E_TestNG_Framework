@@ -74,7 +74,7 @@ public class PlaylistHPTests extends BaseTest{
 							  };	
 		}
 		
-		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
+/*		@Description("Valid details are passed as API input in this test case and a valid response code and body is expected in return")
 		@Test(priority=2, description = "Validate the Happy Path flow of Update Playlist API", enabled = false)
 		public void validateUpdatePlaylist(ITestContext context) throws FileNotFoundException {
 		String playlistId =  (String) context.getAttribute("playlistId");
@@ -117,7 +117,7 @@ public class PlaylistHPTests extends BaseTest{
 			System.out.println("Alert - mismatches noted! Validate them carefully.");
 		}		
 		softAssert.assertAll();
-		}
+		} */
 		
 		
 
